@@ -1,0 +1,111 @@
+nav {
+	background-color: rgb(25,25,25);
+	border: 1px solid rgba(255,255,255,.5);	
+	border-left: none;
+	border-right: none;
+	padding-left: 25%;
+}
+nav ul {
+	padding: 0;
+	margin: 0;	
+}
+nav li {
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style: none;	
+}
+nav a {
+	float: left;
+	font-size: .8em;	
+	color: white;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 15px;
+	border-right: 1px dashed rgba(255,255,255,.75);
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+nav li:last-of-type a {
+	border-right: none;	
+}
+nav a:hover {
+	background-color: rgb(93,43,78);
+}
+.clear:after {
+	content: " ";
+	display: table;
+	clear: both;
+  }
+.clear {
+	zoom: 1;	
+}
+body {
+	margin: 0 auto;	
+	background-color: #d44;
+	color: rgb(255,255,255);
+	font-family: Verdana, Geneva, sans-serif;
+}
+h1{
+	font-size: 2em;
+	border-bottom: dotted 2px #fff;
+	padding-bottom: 5px;
+	margin-left: 25%;
+	width: 960px;
+}
+p{
+	margin-left: 25%;
+	margin-bottom: 20px;
+}
+.subform{
+	font-size: 1.1em;
+	color: #fff;
+
+}
+.subform label{
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+	text-align: left;
+	margin-right: 10px;
+	font-weight: bold;
+}
+.subform input[type="submit"]{
+	margin-left: 270px;
+	padding: 12px 24px;
+	font-size: 1em;
+	background: rgb(0, 106, 160);
+	cursor: pointer;
+	border-radius: 4px;
+	box-shadow: 0 0 3px #fff;
+	color: #fff;
+}
+.subform input[type="radio"]{
+	margin-left:60px;
+}
+.subform input[type="text"], .subform input[type="email"], .subform textarea{
+	border-radius:4px;
+	border: none;
+	background:#fff;
+	color: red;
+	box-shadow: 0 0 3px #fff;
+	padding: 7px;
+	width: 630px;
+}
+.subform input[type="text"]:focus, .subform input[type="email"]:focus, .subform textarea:focus{
+	background: rgb(0, 106, 160);
+	color:#000;
+}
+footer {
+	clear: both;
+	background:#6e6e6e;
+	font-size: .75em;
+	margin-top: 27.4%;
+	height: 10%;
+	padding: 3px;
+}
+footer p{
+	margin-left: 1%;
+}
